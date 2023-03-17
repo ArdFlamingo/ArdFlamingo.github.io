@@ -22,7 +22,7 @@
     track.dataset.percentage = nextPercentage;
   
     track.animate({
-      transform: `translate(${nextPercentage}%, -20%)`
+      transform: `translate(${nextPercentage}%, -1%)`
     }, { duration: 1200, fill: "forwards" });
   
     for(const image of track.getElementsByClassName("image")) {
